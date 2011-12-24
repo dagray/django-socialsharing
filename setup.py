@@ -18,10 +18,9 @@ setup(
     author_email = 'lettertwo@gmail.com',
     packages = [
         'socialsharing',
-        'socialsharing.templates',
         'socialsharing.templatetags',
     ],
-    package_data = {'socialsharing': ['templates/*', 'static/*']},
+    package_data={'socialsharing': ['templates/includes/*']}, 
     requires = [],
     zip_safe = False,
     classifiers = [

@@ -8,9 +8,6 @@ Installation
 ============
 Add `socialsharing` to `INSTALLED_APPS` in settings.py. 
 
-Usage
-=====
-
 addthis
 =======
 The addthis templatetag will insert the necessary scripts to make use of the 
